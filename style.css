@@ -22,8 +22,6 @@
   background-position-x: 638px;
   margin: 0 auto;
   border-radius: 20px;
-   
-
 }
  h1{
     font-family: 'Poiret One', sans-serif;
@@ -67,7 +65,7 @@
     color: white;
 }
 .btn .sub{
-  font-size: 15px;
+    font-size: 15px;
     margin-left: 20px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: left;
@@ -75,7 +73,141 @@
     line-height: 1.6;
     font-weight: 600;
  }
-
-
-
+@media only screen and (max-width:1400px) and (min-width:1201px) {
+  .content{
+    height: 675px;
+    background-position-y:20px; 
+    background-position-x: 467px;
+  }
+  h1 {
+    padding-left: 96px;
+  }
+  .content .main{
+    font-size:20px;
+    padding-left: 92px;
+  }
+  h2{
+    font-size:21px;
+    padding-left:80px;
+  }
+  .btn{
+  margin-left: 60px;
+  }
+}
+@media only screen and (max-width:1200px) and (min-width:993px){
+  .content{
+    height: 675px;
+    background-size: 576px;
+    background-position-y:128px; 
+    background-position-x: 402px;
+  }
+  h1 {
+    padding-left: 75px;
+    font-size: 80px;
+  }
+  .content .main{
+    padding-left: 78px;
+  }
+  h2{
+    font-size:19px;
+    padding-left:75px;
+  }
+  .btn{
+  margin-left: 50px;
+  }
+  button{
+    font-size: 15px;
+    width: 163px;
+  }
+  .btn .sub{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+  .content{
+    background-position: bottom;
+    height: 820px;
+    background-size: 400px;
+    background-position-y:484px;
+    text-align:center;
+  }
+  h1{
+    font-size: 70px;
+    padding-left: 10px;
+  }
+  .content .main{
+    font-size:18px;
+    padding-left: 10px;
+  }
+  h2{
+    font-size:19px;
+    padding-left: 10px;
+  }
+  .btn{
+    margin-left:157px;
+    margin-top:45px;
+  }
+}
+@media only screen and (max-width:767px) and (min-width:574px){
+  h1{
+    font-size: 40px;
+    padding-left: 10px; 
+  }
+  .content .main{
+    font-size:15px;
+    padding-left: 10px;
+  }
+  h2{
+    font-size:19px;
+    padding-left: 10px;
+  }
+  .btn{
+    margin-top: 35px;
+  }
+  button{
+    font-size: 16px;
+    width: 173px;
+  }
+  .content{
+    height: 850px;
+    background-position: bottom;
+    background-size: 425px;
+    background-position-y:450px;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width:573px) and (min-width:320px){
+  .content{
+    height: 900px;
+    background-position: bottom;
+    background-size: 397px;
+    align-items: center;
+    text-align: center;
+  }
+  h1{
+    font-size: 40px;
+    padding-left: 10px; 
+  }
+  .content .main{
+    font-size:15px;
+    padding-left: 10px;
+  }
+  h2{
+    font-size:19px;
+    padding-left: 10px;
+  }
+  .btn{
+    margin-top: 35px;
+    margin-left:10px;
+  }
+  button{
+    font-size: 14px;
+    width: 150px;
+    padding: 17px 19px;
+  }
+  .btn .sub{
+    font-size: 13px;
+  }
+}
  
